@@ -19,6 +19,7 @@ list_d = list(col_d)
 
 pyplot.plot(list_a, list_c, label="Temp")
 pyplot.plot(list_a, list_d, label="Sun")
+pyplot.legend()
 
 pyplot.show()
 
