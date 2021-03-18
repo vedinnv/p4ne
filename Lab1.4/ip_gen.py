@@ -16,7 +16,7 @@ networklist = []
 
 for i in range(0, 50):
     rand_net = IPv4RandomNetwork()
-    if rand_net.regular():
+    if rand_net.regular() and not rand_net in networklist:
         networklist.append(str(rand_net))
 
 print(networklist)
